@@ -17,7 +17,7 @@ public class Book {
     }
 
     public Book(int id, String tittle, String author, String publishingHouse, int yearOfPublication, int numberOfPages, int cost, String typeOfBinding) {
-        setId(id);
+        this.id = id;
         setTittle(tittle);
         setAuthor(author);
         setPublishingHouse(publishingHouse);
